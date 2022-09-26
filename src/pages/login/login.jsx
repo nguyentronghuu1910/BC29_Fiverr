@@ -4,7 +4,7 @@ import { UserIcon } from '../../components/icon'
 import './index.scss'
 
 export default function Login() {
-    const onFinish = (values: any) => {
+    const onFinish = (values) => {
         console.log('Success:', values)
     }
     let urlElements = window.location.pathname

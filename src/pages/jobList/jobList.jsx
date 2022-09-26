@@ -1,5 +1,5 @@
 import React from 'react'
 
-export default function JobList(): JSX.Element {
+export default function JobList() {
     return <div>jobList</div>
 }

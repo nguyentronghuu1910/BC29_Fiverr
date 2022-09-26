@@ -5,7 +5,7 @@ import JobInfo from '../../modules/job-info/job-info'
 import MarketPlace from '../../modules/market-place/market-place'
 import Services from '../../modules/services/services'
 
-export default function Home(): JSX.Element {
+export default function Home() {
     return (
         <>
             <Carousel />
