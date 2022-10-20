@@ -16,7 +16,7 @@ import './index.scss'
 
 export default function Footer() {
     return (
-        <footer>
+        <footer className="container">
             <div className="footer-wrapper">
                 <div className="footer-content">
                     <div className="row">

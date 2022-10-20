@@ -7,6 +7,7 @@ import Home from '../pages/home/home'
 import JobDetail from '../pages/job-detail/job-detail'
 import JobList from '../pages/jobList/jobList'
 import Login from '../pages/login/login'
+import Page404 from '../pages/page404/page404'
 import Profile from '../pages/profile/profile'
 
 export default function Router() {
@@ -20,7 +21,7 @@ export default function Router() {
                     path: '/search/:keyword',
                     element: <JobList />,
                 },
-                { path: '/grapics-design', element: <GrapicsDesign /> },
+                { path: '/graphics&design', element: <GrapicsDesign /> },
                 { path: '/job-detail', element: <JobDetail /> },
                 { path: '/profile', element: <Profile /> },
             ],
@@ -30,6 +31,10 @@ export default function Router() {
             element: <Login />,
         },
         { path: '/admin', element: <AdminLayout />, children: [] },
+        {
+            path: '*',
+            element: <Page404 />,
+        },
     ])
 
     return routing
