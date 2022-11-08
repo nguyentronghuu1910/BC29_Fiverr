@@ -1,11 +1,11 @@
 import React from 'react'
-import SimpleSlider from '../slider-services/slider-services'
+import Slider from '../slider-services/slider-services'
 
 export default function Services() {
     return (
-        <div>
+        <div className="container">
             <h2 className="sub_title">Popular professional services</h2>
-            {/* <SimpleSlider /> */}
+            <Slider />
         </div>
     )
 }

@@ -7,6 +7,7 @@ export default function Login() {
     const onFinish = (values) => {
         console.log('Success:', values)
     }
+
     let urlElements = window.location.pathname
 
     console.log(urlElements)
